@@ -7,10 +7,254 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    /* width: 1850px;
+    height: 4052.5px; */
+    background-color: var(--color-background);
+    padding: var(--padding-pag-width);
+    margin: 0 auto;
+}
+
 nav {
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
-.Head
+
+.Headleft {
+    color: var(--color-orange);
+}
+
+.HeadRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: var(--color-white);
+}
+
+.article1 {
+    padding: var(--padding-space);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.article1Left {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.article1Left h1 {
+    margin-top: 200px;
+    color: var(--color-orange);
+    font-size: 90px;
+}
+
+.article1Left span {
+    margin-top: -110px;
+    color: var(--color-white);
+    font-size: 50px;
+}
+
+.article1Left button {
+    margin-top: -90px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    border: none;
+    background-color: var(--color-orange);
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+}
+
+.article2Right {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.article2Right small {
+    font-size: 20px;
+    color: var(--color-orange);
+}
+
+.article2Right h2 {
+    font-size: 70px;
+    color: var(--color-white);
+}
+
+.article2Right span {
+    margin-top: 30px;
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+.article2Right button {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    border: none;
+    background-color: var(--color-orange);
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+}
+
+.seccitionArticles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.article3Top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: 1/1/2/4;
+}
+
+.article3Top small {
+    font-size: 20px;
+    color: var(--color-orange);
+    padding: var(--padding-space);
+}
+
+.article3Top h2 {
+    font-size: 70px;
+    color: var(--color-white);
+    margin-top: -60px;
+}
+
+.article3Left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: var(--color-beis);
+}
+
+.article3Left span {
+    color: var(--color-black);
+    font-size: 30px;
+}
+
+.article3Left small {
+    color: var(--color-black);
+    font-size: 20px;
+}
+
+#money {
+    color: var(--color-orange);
+    font-size: 20px;
+}
+
+
+
+
+
+
+.article4Top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+}
+
+.article4Top span {
+    color: var(--color-orange);
+    font-size: 30px;
+}
+
+.article4Top p {
+    color: var(--color-white);
+    font-size: 20px
+}
+
+
+
+
+
+
+
+
+.seccitionArticlesHalf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-space);
+}
+
+.article5Half {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color-beis);
+    height: 550px;
+    width: 100%;
+}
+
+.seccitionArticlesHalf h2 {
+    font-size: 70px;
+    color: var(--color-black);
+}
+
+.seccitionArticlesHalf button {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    border: none;
+    background-color: var(--color-orange);
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.seccitionArticlesFooter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.article6Colums {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: var(--color-white);
+}
+
+.article6Colums hr {
+    width: 50px;
+    color: var(--color-orange);
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.circle {
+    /* margin-top: 20px; */
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+    background-color: var(--color-orange);
+}
