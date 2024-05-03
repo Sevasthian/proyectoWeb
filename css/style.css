@@ -36,6 +36,11 @@ nav {
     color: var(--color-white);
 }
 
+.HeadRight a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
 .article1 {
     padding: var(--padding-space);
     display: grid;
